@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+datefmt='%m/%d/%Y %H:%M:%S'
+
+# %( ... )T
+printf "%($datefmt)T\n" -1

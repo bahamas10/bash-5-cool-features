@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+mapfile -n 3 -t thing < data.txt
+
+printf '%s\n' "${thing[@]}"

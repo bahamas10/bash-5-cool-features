@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+i=0
+for f in foo bar baz; do
+	eval "$f=$i"
+	(( i++ ))
+done
+
+echo "foo = $foo"
+echo "bar = $bar"
+echo "baz = $baz"

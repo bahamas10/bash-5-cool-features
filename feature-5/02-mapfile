@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+mapfile < data.txt
+
+printf '%s\n' "${MAPFILE[@]}"

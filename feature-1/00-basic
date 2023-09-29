@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+name='Dave Eddy'
+new=${name/Dave/David}
+
+echo "name: $name"
+echo "new: $new"

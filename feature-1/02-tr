@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+name='Dave Eddy'
+
+lower=${name,,}
+upper=${name^^}
+
+echo "lower: $lower"
+echo "upper: $upper"

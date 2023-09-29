@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+callback_func() {
+	local index=$1
+	local data=$2
+
+	echo "(processing line $index, data='$data')"
+}
+
+mapfile -C callback_func -c 1 -t thing < data.txt
+
+printf '%s\n' "${thing[@]}"
