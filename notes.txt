@@ -1,4 +1,4 @@
 presenter notes
 
-- run `. prompt` got a simple bash prompt
+- run `. prompt` to get a simple bash prompt
 - run `bat -P --style plain README.md` to show the readme before starting
