@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-str1='Dave Eddy'
-str2=${str1/Dave/David}
+str1='banana'
+str2=${str1/n/a}
 
 echo "str1: $str1"
 echo "str2: $str2"

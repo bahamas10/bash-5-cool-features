@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-old='banana'
-new=${old//n/a}
-
-echo "old: $old"
-echo "new: $new"
